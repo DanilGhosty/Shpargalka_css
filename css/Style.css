@@ -1,0 +1,106 @@
+body{
+    background: pink;
+}
+
+header{
+    background: rgb(85, 85, 85);
+    width: 99%;
+    margin: 0 auto;
+    height: 59px;
+    margin-top: 10px;
+    position:static;
+}
+.Text_shpargalka{
+    text-align: center;
+    margin-top: 10px;
+}   
+
+.square_two_gray{
+    background: rgb(109, 109, 109);
+    height: 59px;
+    margin: 0 auto;
+}
+nav{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    top: -65px;
+    left: -55px;
+}
+.box{
+
+    height: 34px;
+    background: rgb(96, 221, 96);
+    padding: 0 8px;
+    top: 10px;
+    display: inline-block;
+}
+li{
+    line-height: 33px;
+    text-align: center;
+}
+.box_for_sircles{
+    margin-top: 65px;
+    margin-left: 75px;
+    width: 70%;
+    height: 255px;
+    background: gray;
+    border: solid black 1px;
+    
+}
+.sircle{
+    background: rgb(96, 221, 96);
+    border: solid black 1px;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-left: 10px;
+    
+}
+.green_box{
+    width: 400px;
+    height: 255px;
+    display: inline-block;
+    background: rgb(96, 221, 96);
+    border: solid black 1px;
+    position: fixed;
+    top: 134px;
+    right: 90px;
+}
+.square{
+    margin: 20px auto;
+    width: 99%;
+    height: 55px;
+    background: gray;
+    border: solid black 1px;
+}
+.TextInsudeSircle{
+    text-align: center;
+    margin-top: 80px;
+    float: inline-end;
+}
+.box:hover{
+    background: yellow;
+    color: #e84f29;
+    border-bottom: solid white 1px;
+}
+.submenu{
+    position: absolute;
+    display: none;/*Скриваєм список*/
+    background: gray;
+    width: auto;
+    float: bottom;
+    background: #9446b0;
+}
+ul .submenu > li{
+    margin-top: 8px;
+    width: 120px;
+    height: 15px;
+    float: none;
+}
+  
+li:hover .submenu{
+    display:block;
+}
